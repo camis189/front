@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- SITE META -->
+    <title></title>
+    <!-- BOOTSTRAP STYLES -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- TEMPLATE STYLES -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <!-- TEMPLATE STYLES -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body class="leftside">
+
+
+    <div id="loading">
+        <div id="loading-center">
+            <img src="images/loder.gif" alt="">
+        </div>
+    </div>
+
+
+    <!-- START SITE -->
+    <div id="wrapper">
+        <div class="row-offcanvas row-offcanvas-left">
+            <div id="sidebar-fix" class="sidebar-offcanvas">
+                <header id="vertical" class="header header-style-1">
+                    <nav class="navbar navbar-default yamm">
+                        <div class="container-f">
+                            <div class="navbar-header">
+                                <div class="site-logo text-center">
+                                    <a class="navbar-brand" href="#">
+                                            <img class="img-responsive" src="images/iqonic-logo.png" alt="">
+                                        </a>
+                                </div>
+                            </div>
+                            <div id='cssmenu'>
+                                <ul>
+                                   <li class='has-sub active'><a href='#'><span>Introduction</span></a>
+                                      <ul>
+                                        <li><a href='#basic-installation'><span>Basic Installation</span></a></li>
+                                         <li><a href='#basic-structure'><span>HTML Structure</span></a></li>
+                                         <li><a href="#basic-css">CSS Structure</a></li>
+                                            <li><a href="#basic-js">Javascript Structure</a></li>
+                                            <li><a href="#basic-favicon">For Favicon icon</a></li>
+                                            <li><a href="#basic-loading">For Page Loading Transitions</a></li>
+                                            <li><a href="#basic-logo">For Logo</a></li>
+                                         <li class='last'><a href='#basic-fonts'><span>For Changing Fonts</span></a></li>
+                                      </ul>
+                                   </li>
+                                   <li class='has-sub'><a href='#'><span>Helper classes</span></a>
+                                      <ul>
+                                         <li><a href="#basic-padding">For section padding</a></li>
+                                            <li><a href="#basic-color">For Text color</a></li>
+                                            <li><a href="#basic-background">For Background color</a></li>
+                                            <li><a href="#basic-pattern">For Background Images and pattern</a></li>
+                                            <li><a href="#basic-overlay">For Background overlay</a></li>
+                                         <li class='last'><a href='#basic-separator'>For Separator</a></li>
+                                      </ul>
+                                   </li>
+                                    <li><a href="#basic-components"><span>Bootstrap Components</span></a></li>
+                                    <li><a href="#basic-form"><span>For Contact Form</span></a></li>
+                                    <li><a href="#basic-sliders"><span>For Sliders</span></a></li>
+                                    <li><a href="#basic-carousel"><span>For Owl carousel</span></a></li>
+                                    <li><a href="#basic-display"><span>For Retina Display</span></a></li>
+                                   <li class='last'><a href='#basic-source'><span>Source & Credits</span></a></li>
+                                </ul>
+                            </div>
+                            <!--/.nav-collapse -->
+                        </div>
+                        <!--/.container-fluid -->
+                    </nav><!-- end nav -->
+                </header><!-- end header -->
+            </div><!-- end sidebar -->
+            <div id="main">
+                <section class="intro-banner" style="background: url(images/bg/01.jpg); background-size: cover; background-repeat: no-repeat;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <a href="#"><img src="images/logo.png" class="img-responsive" alt=""></a>
+                                <h1 class="text-white">USER GUIDE</h1>
+                                <p class="text-white">On behalf of iqonicthemes team, we would like to thank you for purchasing this item. Your support encourages us to build better items and continuously bring value to our products. This documentation file covers all the information needed to install and use this Template. You'll find everything you need to know to create a stunning and beautiful website in minutes.</p>
+                                <p class="text-white">Appino is a HTML/CSS template based on <b>Bootstrap 3+ framework</b>. This documentation will give you an understanding of how Appino template is structured and guide you in performing common functions. If you require further assistance not covered in this documentation, please contact us in our Support Click here to contact us</p>
+                                <ul>
+                                    <li>Created: 3 October 17</li>
+                                    <li>By: iQonicthemes</li>
+                                    <li>Email: <a href="mailto:design@iqonicthemes.com">design@iqonicthemes.com</a></li>
+                                    <li>HelpDesk: <a target="_blank" href="http://iqonicthemes.com/">http://iqonicthemes.com/contactus</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="basic-installation">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="heading-title">Basic Installation</h2>
+                                <p>Steps to be follow for getting started with the template:</p>
+                                <ol>
+                                    <li>Open <span class="text-red">... /Template</span> Folder to find all the Templates Files</li>
+                                    <li>You'll have to upload these file using a FTP on your server</li>
+                                    <li>Make sure you maintain the structure while uploading the required files/folders:
+                                        <ul>
+                                            <li><i class="fa fa-folder-open" aria-hidden="true"></i><span class="text-red">HTML/css</span> - Stylesheets Folder</li>
+                                            <li><i class="fa fa-folder-open" aria-hidden="true"></i><span class="text-red">HTML/fonts</span> - Fonts Folder</li>
+                                            <li><i class="fa fa-folder-open" aria-hidden="true"></i><span class="text-red">HTML/images</span> - Images Folder</li>
+                                            <li><i class="fa fa-folder-open" aria-hidden="true"></i><span class="text-red">HTML/js</span> - Javacripts Folder</li>
+                                            <li><i class="fa fa-folder-open" aria-hidden="true"></i><span class="text-red">HTML/videos</span> - Video and Audio Folder</li>
+                                            <li><i class="fa fa-folder-open" aria-hidden="true"></i><span class="text-red">HTML/php</span> - php File</li>
+                                            <li><i class="fa fa-folder-open" aria-hidden="true"></i><span class="text-red">HTML/index.html</span> - Index File/Homepage</li>
+                                        </ul>
+                                        Other files can be used according to your convenience. </li>
+                                    <li>Now that you have followed these steps your basic installation is complete and ready to flaunt your site to the world.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="basic-structure">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="heading-title">HTML Structure</h2>
+                                <p>Here is the <strong>general HTML structure of the template:</strong></p>
+                                <pre class="prettyprint lang-html linenums">
+&lt;!DOCTYPE html&gt;<br>
+&lt;html lang=&quot;en&quot;&gt;<br>
+&lt;head&gt;<br>
+[Page meta, page css, page js files, page title etc...]<br>
+&lt;/head&gt;</p>
+<p> &lt;body&gt;<br>
+<br>
+&lt;!-- preloader --&gt;<br>
+&lt;div  id=&quot;loading&quot; class=&quot;green-bg&quot; &gt; [LOADER CONTENT] &lt;/div&gt;<br>
+&lt;!--preloader --&gt; <br>
+<br>
+&lt;!--header --&gt;<br>
+&lt;header id=&quot;header-wrap&quot; &gt;</p>
+<p> &lt;/header&gt;<br>
+&lt;!--header --&gt; <br>
+<br>
+&lt;!--Slider- --&gt;<br>
+&lt;section id=&quot;iq-home&quot; class=&quot;banner&quot; &gt; <br>
+[SLIDER CONTENT] <br>
+&lt;/section&gt;<br>
+&lt;!--Slider --&gt; <br>
+<br>
+&lt;!--Section 1 --&gt;<br>
+&lt;section&gt; <br>
+[SECTION 1 CONTENT] <br>
+&lt;/section&gt;<br>
+&lt;!--Section 1 --&gt;</p>
+<p> &lt;!--Section 2 --&gt;<br>
+&lt;section&gt; <br>
+[SECTION 2 CONTENT] <br>
+&lt;/section&gt;<br>
+&lt;!--Section 2 --&gt;<br>
+<br>
+&lt;!--footer --&gt; <br>
+&lt;footer class=&quot;iq-footer&quot;&gt; <br>
+[FOOTER_CONTENT] <br>
+&lt;/footer&gt;<br>
+&lt;!--footer --&gt; </p>
+<p> &lt;div id=&quot;back-to-top&quot;&gt; <br>
+[BACK TO TOP CONTENT]<br>
+&lt;/div&gt;</p>
+<p>   [PAGE JAVASCRIPTS HERE]</p>
+<p> &lt;/body&gt;<br>
+&lt;/html&gt;</p>
+
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section id="basic-css">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="heading-title">CSS Structure</h2>
+                                <p>Here is the <strong>general CSS structure of the template:</strong></p>
+                                <pre class="prettyprint lang-html linenums">
+&lt;!-- Bootstrap --&gt;
+&lt;link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"&gt;
+
+&lt;!-- owl-carousel --&gt;
+&lt;link rel="stylesheet" type="text/css" href="css/owl-carousel/owl.carousel.css" /&gt;
+
+&lt;!-- Font Awesome --&gt;
+&lt;link rel="stylesheet" type="text/css" href="css/font-awesome.css" /&gt;
+
+&lt;!-- Magnific Popup --&gt;
+&lt;link rel="stylesheet" type="text/css" href="css/magnific-popup/magnific-popup.css" /&gt;
+
+&lt;!-- Animate --&gt;
+&lt;link rel="stylesheet" type="text/css" href="css/animate.css" /&gt;
+
+&lt;!-- Ionicons --&gt;
+&lt;link rel="stylesheet" type="text/css" href="css/ionicons.min.css"&gt;
+
+&lt;!-- Style --&gt;
+&lt;link rel="stylesheet" type="text/css" href="css/style.css"&gt;
+
+&lt;!-- Responsive --&gt;
+&lt;link rel="stylesheet" type="text/css" href="css/responsive.css"&gt;
+
+&lt;!-- custom style --&gt;
+&lt;link rel="stylesheet" type="text/css" href="css/custom.css" /&gt;
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <section id="basic-js">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="heading-title">Javascript Structure</h2>
+                                <p>Here is the <strong>general Javascript structure of the template:</strong></p>
+                                <pre class="prettyprint lang-html linenums">
+    &lt;!-- jQuery --&gt;
+    &lt;script src="js/jquery.min.js"&gt;&lt;/script&gt;
+
+    &lt;!-- owl-carousel --&gt;
+    &lt;script src="js/owl-carousel/owl.carousel.min.js"&gt;&lt;/script&gt;
+
+    &lt;!-- Counter --&gt;
+    &lt;script src="js/counter/jquery.countTo.js"&gt;&lt;/script&gt;
+
+    &lt;!-- Jquery Appear --&gt;
+    &lt;script src="js/jquery.appear.js"&gt;&lt;/script&gt;
+
+    &lt;!-- Magnific Popup --&gt; 
+    &lt;script src="js/magnific-popup/jquery.magnific-popup.min.js"&gt;&lt;/script&gt;
+
+    &lt;!-- Retina --&gt;
+    &lt;script src="js/retina.min.js"&gt;&lt;/script&gt;
+
+    &lt;!-- wow --&gt;
+    &lt;script src="js/wow.min.js"&gt;&lt;/script&gt;
+
+    &lt;!-- Skrollr --&gt; 
+    &lt;script src="js/skrollr.min.js"&gt;&lt;/script&gt;
+    
+    &lt;!-- video background --&gt;
+    &lt;script src="js/jquery.vide.js"&gt;&lt;/script&gt;
+
+    &lt;!-- Countdown --&gt;
+    &lt;script src="js/jquery.countdown.min.js"&gt;&lt;/script&gt;
+
+    &lt;!-- bootstrap --&gt;
+    &lt;script src="js/bootstrap.min.js"&gt;&lt;/script&gt;
+
+    &lt;!-- Custom --&gt;
+    &lt;script src="js/custom.js"&gt;&lt;/script&gt;
+                                </pre>
+            <h4>Particles Background Javascript</h4>
+            <p>Same with this canvas effect. Add this javascript js to your file.</p>
+            <pre class="prettyprint lang-html linenums overflow-auto">
+
+    &lt;!-- Particles --&gt;
+    &lt;script src="js/particles/particles.min.js"&gt;&lt;/script&gt;
+    &lt;script src="js/particles/app.js"&gt;&lt;/script&gt;
+</pre>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="basic-favicon">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="heading-title">For Favicon icon</h2>
+                                <p>Favicon is an icon associated with the URL that is displayed at various places, such as in a browser’s address bar or next to the site name in a bookmark list.</p>
+            <p>You can add a Favicon to your Website using the following code:</p>
+            <pre class="prettyprint lang-html linenums">
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;images/favicon.ico&quot;/&gt;
+</pre>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section id="basic-loading">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="heading-title">For Page Loading Transitions</h2>
+                                <p>Page Loading Transitions are enabled by default. If you wish to disable the page loading transition you can simply delete below section</p>
+            <pre class="prettyprint lang-html linenums">
+        &lt;div id="loading-center"&gt;
+            &lt;div class="loader"&gt;
+                &lt;div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;svg xmlns="http://www.w3.org/2000/svg" version="1.1"&gt;
+                &lt;defs&gt;
+                &lt;filter id="goo"&gt;
+                &lt;fegaussianblur in="SourceGraphic" stddeviation="15" result="blur"&gt;&lt;/fegaussianblur&gt;
+                &lt;fecolormatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 26 -7" result="goo"&gt;&lt;/fecolormatrix&gt;
+                &lt;feblend in="SourceGraphic" in2="goo"&gt;&lt;/feblend&gt;
+                &lt;/filter&gt;
+                &lt;/defs&gt;
+            &lt;/svg&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</pre>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="basic-logo">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="heading-title">For Logo</h2>
+                                <p>The Logo Container can be found in the Header Container - <span class="atv"> #header</span>. Replace <span class="atv">"logo-black.png"</span> with your own logo image URL.</p>
+            <pre class="prettyprint lang-html linenums">
+&lt;a class="navbar-brand" href="#"&gt;
+    &lt;img src="images/logo.png" alt="logo"&gt;
+&lt;/a&gt;
+</pre>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+<section id="basic-fonts">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="heading-title">For Changing Fonts</h2>
+            <p> You can add/change the site font, from all fonts used from <a href="https://www.google.com/fonts"> Google Web Font Services,</a> with the one that suits you the best. You can find the font link in top of the <span class="atv">Style.css</span> in all HTML file. See example below:</p>
+            <pre class="prettyprint lang-html linenums">
+&lt;!-- google font --&gt; 
+&lt;link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700,800|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900" rel="stylesheet"&gt;</pre>
+            <br>
+            <p>To include new font you can simply add another link like this: </p>
+            <pre class="prettyprint lang-html linenums">
+&lt;!-- Raleway font --&gt;
+&lt;link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" /&gt;
+&lt;!-- Open Sans font --&gt;
+&lt;link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800" rel="stylesheet"&gt;
+</pre>
+            <br>
+            <p>In order to change the fonts, you will need to edit the above links with your custom font, You can easily use <a href="https://www.google.com/fonts"> Google Web Font Services</a> if you plan to use a Google Font or remove it completely. If you plan to use a self hosted font, here is an Example of using <a href="https://css-tricks.com/snippets/css/using-font-face/">Self Hosted Fonts</a></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+<section id="section-title">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="heading-title">For Section Title</h2>
+                                <p>Use this sample code for page section title to keep the consistency in the title. </p>
+                                <pre class="prettyprint lang-html linenums overflow-auto">
+&lt;div class="heading-title"&gt;
+    &lt;h2 class="title iq-tw-6"&gt;Amazing Features&lt;/h2&gt;
+    &lt;div class="divider"&gt;&lt;/div&gt;
+    &lt;p&gt;We've been working really hard to improve the appino with this amazing new features that you aked for! Check out the appino’s new  amazing features. &lt;/p&gt;
+&lt;/div&gt;
+
+                                 </pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+<section id="basic-padding">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="heading-title">For section padding</h2>
+            <p>You can add this helper class to set section <span class="atv">padding top 100px</span> and <span class="atv">padding bottom 100px</span>.
+                <br> Add <span class="atv">overview-block-ptb</span> class in <span class="atv">section</span> tag. See example below:</p>
+            <pre class="prettyprint lang-html linenums overflow-auto">
+&lt;section class=&quot;... overview-block-ptb&quot;&gt;</p>
+[YOUR CONTENT]<p><br />&lt;/section&gt;</pre>
+            <p> <span class="label label-danger">Note</span> Use this helper class to maintain all page section spacing. You can also use <span class="atv">overview-block-pt</span> for only padding top and <span class="atv">overview-block-pb</span> for only padding bottom. </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+<section  id="basic-color">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="heading-title">For Text color</h2>
+            <p>You can use color in the Text. simply add <span class="atv"> .iq-font-blue </span> ( or any color you want) class where you want to use. See example below: </p>
+            <pre class="prettyprint lang-html linenums overflow-auto">&lt;div class=&quot;iq-font-blue&quot;&gt;
+[YOUR TEXT CONTENT]<br />&lt;/div&gt;</pre>
+            <p> <span class="label label-danger">Note</span> We include 4 color helper class in our template <span class="atv">iq-font-light-blue, iq-font-grey, iq-font-black, iq-font-blue and iq-font-white</span>. you can add unlimited color class according to your needs. </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+<section id="basic-background">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="heading-title">For Background color</h2>
+             <p>You can use color in the background. simply add <span class="atv"> .white-bg</span> (or any color you want) class where you want to use. See example below: </p>
+            <pre class="prettyprint lang-html linenums overflow-auto">&lt;div class=&quot;blue-bg&quot;&gt;
+[YOUR CONTENT]<br />&lt;/div&gt;</pre>
+            <p> <span class="label label-danger">Note</span> We include 4 background color helper class in our template <span class="atv">blue-bg, grey-bg, white-bg and dark-bg</span> You can add unlimited background color class according to your needs </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+<section id="basic-pattern">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="heading-title">For Background Images and pattern</h2>
+<p>You can use an image in the background with parallax effect by simply adding <span class="atv"> InlineStyle </span> in div tag and by use of this you can create your own background. See example below: </p>
+            <pre class="prettyprint lang-html linenums overflow-auto">&lt;div style=&quot;background-image:url(Path); &quot;&gt;
+[YOUR CONTENT]<br />&lt;/div&gt;</pre>
+            <br>
+            <p> If your background is small and you want to use repeated background then use styling property <span class="atv"> background-repeat </span> and set the value <span class="atv">repeat</span> or <span class="atv">no-repeat</span>. See the example below:</p>
+            <pre class="prettyprint lang-html linenums overflow-auto">&lt;div style=&quot;background-image:url(Path); background-repeat:no-repeat;&quot;&gt;   [YOUR CONTENT]<br />&lt;/div&gt;</pre>
+            <br>
+            <p> If you want to use your background like cover or cointainer. You just need to add styling property <span class="atv"> background-size </span> and set the value <span class="atv">cover</span> or <span class="atv">cointainer</span>. see the example below:</p>
+            <pre class="prettyprint lang-html linenums overflow-auto">&lt;div style=&quot;background-image:url(Path); background-size:cover;&quot;&gt;
+[YOUR CONTENT]<br />&lt;/div&gt;</pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+<section id="basic-overlay">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="heading-title">For Background overlay</h2>
+<p>You can use these <span class="atv"> .iq-over-black-30, .iq-over-white-20, .iq-over-blue-90 </span> classes to any element in your HTML code to apply overlay color on any image or section. See example below:</p>
+            <pre class="prettyprint lang-html linenums overflow-auto">&lt;div class=&quot;iq-over-black-80&quot;&gt;
+[YOUR CONTENT]<br />&lt;/div&gt;</pre>
+    <p><strong>Structure: </strong> <span class="atv">.iq-over-{<b>color</b>}-{<b>opacity</b>}</span>. For Example, <span class="atv"> .iq-over-black-80</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+<section id="basic-separator">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="heading-title">For Separator</h2>
+<p>Add this tag in your HTML code to add Separator line. Simply add <span class="atv"> hr </span> tag where you want to add the line. See example below:</p>
+            <pre class="prettyprint lang-html linenums overflow-auto"><p>...</p>
+<p> [SECTION 1 CONTENT]</p>
+<p>...</p>
+<p>&lt;/section&gt; &lt;!--Section 1 End--&gt;</p>
+<p>  &lt;hr/&gt;</p>
+<p>&lt;section&gt; &lt;!--Section 2 Start--&gt;</p>
+<p>...</p>
+<p> [SECTION 2 CONTENT]</p>
+<p>...</p></pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+<section id="section-title">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="heading-title">For Template Color Schemes</h2>
+                                <p>To change your site's color takes two simple methods:
+Method 1: Add a link in your HTML head consisting path of existing color scheme CSS file (PATH: css/color/yourcolor.css) as shown in the example:
+
+Method 2: Change the Color Code in the css/color/color-3.css and include inside head as shown in the example:
+ </p> 
+      <pre class="prettyprint lang-html linenums overflow-auto"><div>&lt;link href=&quot;css/color/color-1.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;</div>
+</pre>
+      <pre class="prettyprint lang-html linenums overflow-auto"><div>&lt;link href=&quot;css/color/color-3.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;</div>
+</pre>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+<section id="basic-components">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="heading-title">Bootstrap Components</h2>
+                                <p>
+                                  Bootstrap has a wonderfull documentation on following components:
+                                </p>
+                                <ul>
+                                  <li>
+                                      <a href="https://getbootstrap.com/docs/4.1/utilities/text/#text-alignment" target="black">Text Alignments</a>
+                                  </li>
+                                  <li>
+                                      <a href="https://getbootstrap.com/docs/4.1/components/alerts/" target="black">Alerts</a>
+                                  </li>
+                                  <li>
+                                      <a href="https://getbootstrap.com/docs/4.1/components/badge/" target="black">Badges</a>
+                                  </li>
+                                  <li>
+                                      <a href="https://getbootstrap.com/docs/4.1/components/carousel/" target="black">Carousel</a>
+                                  </li>
+                                  <li>
+                                      <a href="https://getbootstrap.com/docs/4.1/layout/grid/">Columns</a>
+                                  </li>
+                                  <li>
+                                      <a href="https://getbootstrap.com/docs/4.1/content/tables/">Tables</a>
+                                  </li>
+                                  <li>
+                                      <a href="https://getbootstrap.com/docs/4.1/components/buttons/" target="black">Buttons</a>
+                                  </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+<section id="basic-form">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="heading-title">For Contact Form</h2>
+                                            <p>Replace dummy email with your email in contact-form.php to get your contact-form working</p>
+            <pre class="prettyprint lang-html linenums overflow-auto"><p>$ToEmail = 'demo123@gmail.com';</p></pre>
+            <br>
+            <p><em>Note: </em>Don't forget to change dummy <b>site-key</b> with your site-key to get your google captcha working</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+<section id="basic-sliders">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                            <h2 class="heading-title">For Sliders</h2>
+                            <p>There 2 different sliders for you to be used on any page with variety of Options. List of the Sliders:</p>
+            <ul>
+                <li><strong><i class="fa fa-folder-open" aria-hidden="true"></i>Owl carousel</strong></li>
+            </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+<section id="basic-carousel">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                            <h2 class="heading-title">For Owl carousel</h2>
+                            <p>This excellent carousel slider can be controlled using HTML5 data attributes.</p>
+            <p>Find the full online <a href="http://www.owlcarousel.owlgraphic.com/docs/started-welcome.html"> owl carousel Slider documentation</a>.</p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+<section id="basic-display">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                            <h2 class="heading-title">For Retina Display</h2>
+                            <p>
+                              The basic concept of a Retina image is that an image twice the size of a standard web image will be displayed on the screen. On a non-retina device an image will be <span class="atv">100px X 100px</span> whereas a Retina device will display the same image but at <span class="atv">200px X 200px.</span> Most devices use this branded concept for Retina devices like having approximately twice the pixel density of a non-retina device.
+                            </p>
+                <P>If you want to get perfect looking images on Retina screens. For example, you build a website where you upload regular images into Content, you must always upload 2 images in Media
+                    <br>Add new section which looks like below:</P>
+                <pre class="prettyprint lang-html linenums overflow-auto">my_image.png - this is the name for standard image (e.g. 100px X 100px)
+my_image@2x.png - this is the example name for retina image and file must be always 2x larger than regular image (e.g. 200px X 200px)</pre>
+                <br>
+                <p> <span class="label label-danger">Note</span> You need to include <span class="atv">retina.js</span> to make your website completely retina ready. See example below:</p>
+                <pre class="prettyprint lang-html linenums overflow-auto">&lt;!-- retina --&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/retina.js&quot;&gt;&lt;/script&gt;</pre>
+                <p>For more information about retina documentation and to download retina.js <a href="http://imulus.github.io/retinajs/">Click here.</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+<section id="basic-support">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                            <h2 class="heading-title">Browser Support</h2>
+                            <p>Supports all major Browsers like Google Chrome, Mozilla Firefox, Safari, Opera, Internet Explorer 9 and above.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+<section id="basic-log">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                            <h2 class="heading-title">Change Log</h2>
+                             <h4>Version 1.0</h4>
+                             <p>- Initial Release</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+<section id="basic-source">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                            <h2 class="heading-title">Source & Credits</h2>
+                             <p>All images and videos are for preview purposes only and are not included in the download files. Images are of copyrights under Creative Commons CC0.</p>
+                <br>
+                <h4>Images</h4>
+                <ul>
+                    <li>bigstockphoto <a href="https://www.bigstockphoto.com/">bigstockphoto</a></li>
+                    <li>Pexels <a href="https://www.pexels.com/">Pexels</a></li>
+                    <li>freepik <a href="http://www.freepik.com/">freepik</a></li>
+                    <li>pixabay <a href="https://pixabay.com/">pixabay</a></li>
+                </ul>
+                <br>
+                <br>
+                <h4>Scripts</h4>
+                <ul>
+                    <li><a href="https://jquery.com/">Jquery</a></li>
+                    <li><a href="http://www.owlcarousel.owlgraphic.com/">Owl Carousel 2</a></li>
+                    <li><a href="http://dimsemenov.com/plugins/magnific-popup/">Magnific Popup</a></li>
+                    <li><a href="https://github.com/bas2k/jquery.appear/">Jquery appear</a></li>
+                    <li><a href="https://github.com/mhuggins/jquery-countTo">Counter</a></li>
+                    <li><a href="https://github.com/glix/jQuery-Plugins/tree/master/Modern-Circular-jQuery-Countdown-Timer-Plugin-Final-Countdown">Countdown</a></li>
+                </ul>
+                <br>
+                <br>
+                <h4>CSS & Fonts</h4>
+                <ul>
+                    <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+                    <li><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a></li>
+                    <li><a href="http://ionicons.com/#cdn">ionicons</a></li>
+                    <li><a href="https://www.google.com/fonts">Google Fonts</a></li>
+                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+<section id="rate-item">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                            <h2 class="heading-title">How to rate this Template</h2>
+                             <p>Please do rate us if you like our theme and support. We look forward to your valuable review. For rating visit: <a href="http://themeforest.net/downloads">http://themeforest.net/downloads</a> and find "Rate this item" below the download button and rate out the theme. Advance Thanks in Prospect!<br>
+            </p>
+            <div class="rate-img"> <img src="images/rate.jpg" alt="logo"> </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>Designed and built with love by <a href="http://iqonicthemes.in/">iqonicthemes IT Solutions</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+            </div>
+        </div><!-- end main -->
+    </div><!-- end wrapper -->
+    <!-- END SITE -->
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+        <script src="js/prettify.js"></script>
+    <script src="js/plugins.js"></script>
+
+</body>
+
+</html>
